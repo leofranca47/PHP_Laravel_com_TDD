@@ -4,9 +4,13 @@ namespace Core\Oders;
 
 class Customer
 {
+    protected $name;
     public function __construct(
-        protected string $name
-    ){}
+        string $name
+    )
+    {
+        $this->name = $name;
+    }
 
     public function changeName(string $name)
     {

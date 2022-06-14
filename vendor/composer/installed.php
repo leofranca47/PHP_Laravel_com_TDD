@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '182b2c4eaf66cbbb566a03537529dda9484b9bdb',
         'name' => 'leofranca47/php-tdd',
         'dev' => true,
     ),
@@ -47,12 +47,12 @@
             ),
         ),
         'leofranca47/php-tdd' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '182b2c4eaf66cbbb566a03537529dda9484b9bdb',
             'dev_requirement' => false,
         ),
         'mockery/mockery' => array(
