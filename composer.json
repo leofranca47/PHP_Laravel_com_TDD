@@ -1,0 +1,20 @@
+{
+    "name": "leofranca47/php-tdd",
+    "description": "PHP with TDD",
+    "authors": [{
+        "name": "leo Franca",
+        "email": "leoprofissional@live.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "mockery/mockery": "^1.5"
+    }
+}
